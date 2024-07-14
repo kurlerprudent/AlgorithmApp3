@@ -34,9 +34,9 @@ public class Main {
             else if (choice.equals("1") || choice.equals("Divide & Conquer Algorithm")) {
                 System.out.print("Select a Divide & Conquer Algorithm: ");
                 System.out.println("1.Quick Sorting   2.Merge Sort   3.Closest-Pair Problem   4.Strassen’s Matrix Multiplication     5.Quickhull:");
-                String bruteForceOption = scanner.nextLine();
+                String divideandConquerOption = scanner.nextLine();
 
-                switch (bruteForceOption) {
+                switch (divideandConquerOption) {
                     case "1":
                         System.out.println("Quick Sorting");
                         QuickSort quickSort = new QuickSort();
@@ -72,8 +72,8 @@ public class Main {
             else if (choice.equals("2") || choice.equals("Greedy Algorithm")) {
                 System.out.println("Select A Greedy Algorithm Option");
                 System.out.print("1.Prim’s Minimum Spanning Tree       2.Traveling Salesman Problem      3.Kruskal’s MST     4.Dijkstra’s Shortest Path     5.Huffman Codes: ");
-                String exhaustiveSearchOption = scanner.nextLine();
-                switch (exhaustiveSearchOption) {
+                String greedyOption = scanner.nextLine();
+                switch (greedyOption) {
                     case "1":
                         System.out.println("You selected the Prim’s Minimum Spanning Tree option");
                         TravellingSalesmanProblem prims = new TravellingSalesmanProblem();
